@@ -37,8 +37,8 @@ const isValid = (str, int) => {
     errText = 'Please enter a valid number.';
   } else if (int < 1) {
     errText = 'Please enter a number greater than or equal to 1.';
-  } else if (int > 3999) {
-    errText = 'Please enter a number less than or equal to 3999.';
+  } else if (int > 5000) {
+    errText = 'Please enter a number less than or equal to 5000.';
   } else {
     // No errors detected
     return true;

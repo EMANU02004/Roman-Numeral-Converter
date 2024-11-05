@@ -14,22 +14,18 @@ main {
   justify-content: center;
 }
 
-.freecodecamp-logo {
-  height: 30px;
-  margin-bottom: 20px;
-}
 
 h1 {
   text-align: center;
-  margin: 20px auto;
+  margin: 1px auto;
   max-width: 350px;
-  font-family: 'Castoro Titling', cursive;
+  font-family: 'Castoro Titling';
 }
 
 form {
   color: rgb(0, 0, 0);
   margin: auto 35px;
-  padding: 15px auto;
+  padding: 5px auto;
   border: 3px solid black;
   text-align: center;
   width: 90%;
@@ -78,12 +74,11 @@ button {
   padding: 10px 16px;
   font-size: 23px;
   width: 100%;
+  font-family: Impact,'Arial Narrow Bold', sans-serif;
 }
 
 .output {
-  color: white;
-  background-color: var(--gray-75);
-  border: 3px solid var(--gray-05);
+  color: rgb(0, 0, 0);
   font-size: 2.5rem;
   width: 90%;
   max-width: 500px;
@@ -96,9 +91,8 @@ button {
 
 .alert {
   font-size: 2rem;
-  background-color: var(--danger-background);
-  border: 3px solid var(--danger-color);
-  color: var(--danger-color);
+  color: bold black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .hidden {
